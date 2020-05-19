@@ -29,22 +29,37 @@
 # end
 # bubble_sort([4, 78, 2, 0, 2])
 
-# def bubble_sort_by(array)
-#   yield 
-# end
-
-# bubble_sort_by(["hi","hello","hey"]) do |left,right|
-#   p left.length - right.length
-# end
-
-def yield_with_arguments
-    x = 'Habari'
-    y = 'yako'
-  
-    yield(x, y)
+def bubble_sort_by(array)
+  swap = false
+  until swap
+    swap = true
+    (0..array.length-2).each do |i|
+      x = array[i]
+      y = array[i + 1]
+      if yield(x, y).positive? 
+        array[i], array[i + 1] = array[i + 1], array[i]
+        swap = false
+      end
+    end
+    p array
   end
   
-  yield_with_arguments { |hello, world| puts "#{hello} #{world}" } # => Hello World!
+end
+
+
+
+bubble_sort_by(["hi","mambo", "hello","hey"]) do |left, right|
+  left.length - right.length
+end
+
+# def yield_with_arguments
+#     x = 'Habari'
+#     y = 'yako'
+  
+#     yield(x, y)
+#   end
+  
+#   yield_with_arguments { |hello, world| puts "#{hello} #{world}" } # => Hello World!
 
 
 
