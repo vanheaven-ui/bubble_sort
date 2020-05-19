@@ -8,4 +8,4 @@ def booble_sort(arr)
 end
 p arr
 end
- booble_sort([3,4,7,5,9,1,2])
+ booble_sort([3,4,7,5,9,1,2]) 
