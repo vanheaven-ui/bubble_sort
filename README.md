@@ -1,43 +1,42 @@
 # Bubble_sort Algorithm
 
-This projected was completed under Microverse remote software development curriculum. The requirement was to implement a bubble sort algorithm in ruby programming language. 
+This project was completed under Microverse remote software development curriculum. The requirement was to implement a bubble sort algorithm without using the sort inbuilt method in ruby programming language. The algorithm should sort array elements in ascending order by comparing two adjucent array elements at a time. If the array element on the left is greater than the array element on the right, their positions should be swapped. Another requirement was to develop a bubble sort by algorithm with a method that uses the ###yield keyword. The bubble sort and bubble sort by algorithms developed in this project run and output in the terminal.
 
-Here is a screenshot of the clone 
+Here is an illustration of the bubble sort algorithm.
 
-![screenshot](./img/screenshot.gif)
+<img src="http://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif" class="lesson-content__small-image" markdown="1">
+
+Here is a screenshot to demostrate the bubble sort developed.
+
+![screenshot](./images/screenshot.png)
 
 ## Built With
 
-- HTML,
-- CSS,
+- Ruby
 
 ## Live Demo
+Remember to click the run tab in middle top to run the algorithm for output.
 
 [Live Demo Link](https://repl.it/@vanheavenui/bubblesort)
 
 ### Prerequisites
 
-- Any kind of browser supporting CSS3 and HTML5
-- Bootstrap CSS, popper javascript and jquery libraries
+- Text editor (Preferrably Vscode)
+- Ruby runtime
+- Terminal
 
 ### Setup
 
-- Fork the repo to your remote repository.
-- Clone or download the repository to your local machine.
-
-### Install
-
-- Install node js and npm.
-- Run npm install to install stylint and other packages you need for development.
+- Clone or download the repository to a folder on your local machine.
 
 ## Authors
 
-👤 **Kiptoo Hillary**
+👤 **Dickens Juma**
 
-- Github: [@githubhandle](https://github.com/imhilla)
-- Twitter: [@twitterhandle](https://twitter.com/hillarykiptoo_)
+- Github: [@githubhandle](https://github.com/DickensJuma)
+- Twitter: [@twitterhandle]()
 - Linkedin: [linkedin]()
-- Email: [Email](hillaryodhiambo282@gmail.com) 
+- Email: [Email](dickensjuma13@gmail.com) 
 
 👤 **Mworekwa Ezekiel**
 
@@ -49,7 +48,7 @@ Here is a screenshot of the clone
 🤝 Contributing
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the issues page on [issues](https://github.com/imhilla/thenextweb/issues).
+Feel free to check the issues page on [issues](https://github.com/vanheaven-ui/bubble_sort/issues).
 
 Show your support
 Give a ⭐️ if you like this project!
