@@ -1,6 +1,6 @@
 # Bubble_sort Algorithm
 
-This project was completed under Microverse remote software development curriculum. The requirement was to implement a bubble sort algorithm without using the sort inbuilt method in ruby programming language. The algorithm should sort array elements in ascending order by comparing two adjucent array elements at a time. If the array element on the left is greater than the array element on the right, their positions should be swapped. Another requirement was to develop a bubble sort by algorithm with a method that uses the ###yield keyword. The bubble sort and bubble sort by algorithms developed in this project run and output in the terminal.
+This project was completed under Microverse remote software development curriculum. The requirement was to implement a bubble sort algorithm without using the sort inbuilt method in ruby programming language. The algorithm should sort array elements in ascending order by comparing two adjucent array elements at a time. If the array element on the left is greater than the array element on the right, their positions should be swapped. Another requirement was to develop a bubble sort by algorithm with a method that uses the **yield** keyword. The bubble sort and bubble sort by algorithms developed in this project run and output in the terminal.
 
 Here is an illustration of the bubble sort algorithm.
 
