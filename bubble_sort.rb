@@ -11,7 +11,7 @@ def bubble_sort(arr)
       break
     end
   end
-  p arr
+  arr
 end
 bubble_sort([4, 78, 2, 0, 2])
 
@@ -29,7 +29,7 @@ def bubble_sort_by(array)
       end
     end
   end
-  p array
+  array
 end
 bubble_sort_by(%w[hi mambo hello hey]) do |left, right|
   left.length - right.length
